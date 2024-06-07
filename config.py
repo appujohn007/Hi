@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6722106503:AAFpbnWxC1QzU_Sw_ayFMnHM6T6FJbBKJBI")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7382577497:AAGZMos7m19_fqTR9FOvd0qW4KxRSCbz0A8")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "25839862"))
@@ -19,7 +19,7 @@ API_HASH = os.environ.get("API_HASH", "ef417c527eae44d9ddb662743fbbedcc")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002048981288"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6362135712"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7328629001"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -29,7 +29,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://rohitplayer87089:rohit870
 DB_NAME = os.environ.get("DATABASE_NAME", "@FilesStoringBot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002042808719"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002001392051"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
