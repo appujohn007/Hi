@@ -1,7 +1,6 @@
 # --- For-Bot-Working --------- #
-pyrogram==2.0.89
-TgCrypto
-pyromod==1.5
+pyrofork==2.0.89
+TgCrypto
 schedule
 APscheduler
 # --- For-Database ------------ #
